@@ -1,6 +1,6 @@
 from ArchAux import CreaBD as crear
 from ArchAux import ReconoFace as registro
-import os, getpass, shutil
+import os, getpass
 
 def app():
     os.system("cls")
@@ -11,7 +11,7 @@ def app():
         2. Registrar Entrad/Salida
         3. Traer Archivo Registro
         4. Salir
-        
+        **
             Opcion: """)
 
     if opc != '1' and opc!='2' and opc!='3':

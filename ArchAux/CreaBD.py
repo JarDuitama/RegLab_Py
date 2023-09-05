@@ -1,5 +1,5 @@
 # video guia - https://www.youtube.com/watch?v=xa804S90WWw
-import glob, os, msvcrt, shutil,cv2,imutils
+import glob, os, msvcrt, shutil, cv2, imutils
 from . import Entrenamiento as enternar
 
 def capturas(usu_new):
